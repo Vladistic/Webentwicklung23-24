@@ -1,4 +1,17 @@
 .cr {
     text-align: left;
-    border: 3px solid green;
+    border: 3px solid black;
+}
+.botlink {
+    text-align: right;
+    border: 3px solid black;
+    color: white;
+}
+nav {
+    background-color: #002060;
+    width: 100%;
+}
+footer {
+    background-color: #002060;
+    color: white;
 }
