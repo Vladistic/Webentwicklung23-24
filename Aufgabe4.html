@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web-Development</title>
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- Our CSS -->
+        <link href="Style.css" rel="stylesheet" type="text/css">
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body class="d-flex flex-column h-100">
+        <header class="text-secondary">
+            <nav class="navbar navbar-expand-sm bg-dark">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <img src="/logo.svg" class="img-fluid" size="50%"/>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Tasks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Boards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="public/Aufgabe3.html">Spalten</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="flex-shrink-0">
+            <div class="container mt-4">
+                <h2>Spalten erstellen</h2>
+
+                <form>
+                    <div class="form-group">
+                        <label for="spaltenbezeichnung">Spaltenbezeichnung</label>
+                        <input type="text" class="form-control" id="spaltenbezeichnung" placeholder="Bezeichnung für Spalte">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="spaltenbeschreibung">Spaltenbeschreibung</label>
+                        <textarea class="form-control" id="spaltenbeschreibung" rows="3" placeholder="Beschreibung für Spalte"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sortid">Sortid</label>
+                        <input type="text" class="form-control" id="sortid" placeholder="Sortid angeben">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="operator">Board auswählen</label>
+                        <select class="form-control" id="operator">
+                            <option>Generelle ToDos</option>
+                            <option>Wichtige ToDos</option>
+                            <option>Unwichtige ToDos</option>
+                        </select>
+                    </div>
+
+                    <a href="#" class="btn btn-primary">Speichern</a>
+                    <a href="#" class="btn btn-secondary">Abbrechen</a>
+                </form>
+            </div>
+        </main>
+
+        <footer class="footer bg-dark">
+            <div class="container">
+                    <span class="text-secondary">
+                        <div class="cr">©Web-Entwicklung Team 2023</div>
+                        <div class="botlink">
+                            <a href="/">Impressum</a>
+                            <a href="/">Kontakt</a>
+                            <a href="/">Datenschutz</a>
+                        </div>
+                    </span>
+            </div>
+        </footer>
+
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    <!-- Font Awesome -->
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/4cb0f6673c.js" crossorigin="anonymous"></script>
+    </body>
+</html>
